@@ -1,5 +1,7 @@
 
+
     <div class="container">
+      <h1> Edit User</h1>
         <div class="row">
             <div class="col-sm-9">
                 <form action="<?= base_url('admin/users/update'); ?>" method="POST">
