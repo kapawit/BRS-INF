@@ -3,11 +3,14 @@ use App\Controllers\BaseController;
 use App\Models\UsersModel;
 
 class Users extends BaseController{
-    public function index() {
+    public function index()
+    {
         echo view("template/v_header");
-		echo view("template/v_sidebar");
-		echo view("template/v_topbar");
-		echo view("template/v_footer");
+        echo view("template/v_sidebar");
+        echo view("template/v_topbar");
+        echo view("template/v_footer");
+        echo view("template/v_css");
+        //echo "Ini adalah Controller HOME";
         $model = new UsersModel();
 
         //load seluruh data
@@ -19,7 +22,8 @@ class Users extends BaseController{
         echo view("template/v_header");
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
-		echo view("template/v_footer");
+        echo view("template/v_footer");
+        echo view("template/v_css");
         return view('users_create_user');
     }
     public function store(){
@@ -27,6 +31,7 @@ class Users extends BaseController{
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
         echo view("template/v_footer");
+        echo view("template/v_css");
         
         $model = new UsersModel();
 
@@ -43,7 +48,8 @@ class Users extends BaseController{
         echo view("template/v_header");
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
-		echo view("template/v_footer");
+        echo view("template/v_footer");
+        echo view("template/v_css");
         $model = new UsersModel();
        $data['users'] = $model->where('id', $id)->first();
     

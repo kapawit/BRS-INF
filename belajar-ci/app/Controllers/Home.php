@@ -8,6 +8,7 @@ class Home extends BaseController
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
 		echo view("template/v_footer");
+		echo view("template/v_css");
 		//echo "Ini adalah Controller HOME";
 		return view('welcome_message');
 	}
