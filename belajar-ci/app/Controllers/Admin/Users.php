@@ -22,7 +22,7 @@ class Users extends BaseController{
         echo view("template/v_header");
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
-        echo view("template/v_footer");
+        echo view("template/v_js");
         echo view("template/v_css");
         return view('users_create_user');
     }
@@ -30,7 +30,7 @@ class Users extends BaseController{
         echo view("template/v_header");
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
-        echo view("template/v_footer");
+        echo view("template/v_js");
         echo view("template/v_css");
         
         $model = new UsersModel();
@@ -48,7 +48,7 @@ class Users extends BaseController{
         echo view("template/v_header");
 		echo view("template/v_sidebar");
 		echo view("template/v_topbar");
-        echo view("template/v_footer");
+        echo view("template/v_js");
         echo view("template/v_css");
         $model = new UsersModel();
        $data['users'] = $model->where('id', $id)->first();
