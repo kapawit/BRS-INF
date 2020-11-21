@@ -1,10 +1,9 @@
 <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
+                <h3>Admin</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
                 <li>
                     <a href="<?= base_url(); ?>">Home</a>
                 </li>
@@ -17,9 +16,6 @@
                         </li>
                         <li>
                             <a href="<?= base_url('admin/users/create'); ?>">Create User</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
                         </li>
                     </ul>
                 </li>

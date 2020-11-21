@@ -1,5 +1,6 @@
 
     <div class="container mt-5">
+        <h1> Create User</h1>
         <div class="row">
             <div class="col-sm-9">
                 <form action="<?= base_url('admin/users/store'); ?>" method="POST">

@@ -18,7 +18,7 @@
                             <td><?= $pengguna['id']; ?></td>
                             <td><?= $pengguna['name']; ?></td>
                             <td><?= $pengguna['email']; ?></td>
-                            <td><a href="<?= base_url('admin/users/edit/'.$pengguna['id']) ?>"class="btn btn-primary mb-2"><i class="fa fa-alert"></i></i></a>
+                            <td><a href="<?= base_url('admin/users/edit/'.$pengguna['id']) ?>"class="btn btn-primary mb-2"><i class="fas fa-pen"></i></i></a>
                             <a href="<?= base_url('admin/users/delete/'.$pengguna['id']) ?>"class="btn btn-danger mb-2"><i class="fa fa-trash"></i></a></td>
                         </tr>
                             <?php endforeach; ?>
