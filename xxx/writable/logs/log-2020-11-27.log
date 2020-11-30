@@ -1,0 +1,215 @@
+CRITICAL - 2020-11-27 00:30:44 --> Undefined variable: totalTime
+#0 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 56, Array)
+#1 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(498): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\laragon\www\belajar-ci\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\laragon\www\belajar-ci\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:51:15 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:52:18 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:52:50 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:53:44 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:53:45 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:53:48 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:55:08 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 02:58:54 --> Table 'simulasi.users' doesn't exist
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 03:01:59 --> Unknown column 'id' in 'order clause'
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(17): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-27 03:02:16 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:02:28 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:02:29 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:02:30 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:02:37 --> Undefined index: id
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:02:51 --> Undefined index: id
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(19): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:19:13 --> Invalid file: home.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(12): view('home')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 04:29:57 --> Undefined index: pwd
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->auth()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 04:30:24 --> Undefined index: pwd
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->auth()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 04:30:26 --> Undefined index: pwd
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->auth()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 04:30:50 --> Undefined index: pwd
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->auth()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

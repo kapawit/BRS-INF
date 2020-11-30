@@ -1,0 +1,185 @@
+CRITICAL - 2020-11-17 00:00:04 --> Column 'name' cannot be null
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(34): CodeIgniter\Model->insert(Array)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-17 00:01:15 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:02:01 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:02:42 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:04:00 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:04:06 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:04:29 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:04:48 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:05:01 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:07:20 --> Undefined variable: data
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:07:31 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_edit_user.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_edit_user', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(29): view('users_edit_user')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:17:09 --> Too few arguments to function App\Controllers\Admin\Users::update(), 0 passed in C:\laragon\www\belajar-ci\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-17 00:24:06 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\laragon\www\belajar-ci\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/users')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/users')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:27:35 --> Too few arguments to function App\Controllers\Admin\Users::update(), 0 passed in C:\laragon\www\belajar-ci\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-17 00:28:06 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:28:51 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:29:26 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:32:15 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:32:18 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:33:36 --> Too few arguments to function App\Controllers\Admin\Users::update(), 0 passed in C:\laragon\www\belajar-ci\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-17 00:34:04 --> Undefined variable: id
+#0 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-17 00:34:26 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(40): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:35:19 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-17 00:39:38 --> There is no data to update.
+#0 C:\laragon\www\belajar-ci\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(41): CodeIgniter\Model->update(Array)
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,63 @@
+CRITICAL - 2020-11-21 02:39:28 --> Invalid file: template/v_css.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_css....')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_css', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(11): view('template/v_css')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:25:43 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:25:48 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:26:24 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:26:25 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:26:26 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-21 03:27:18 --> Invalid file: template/v_footer.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_foot...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_foot...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Home.php(10): view('template/v_foot...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

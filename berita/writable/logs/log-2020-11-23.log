@@ -1,0 +1,6 @@
+CRITICAL - 2020-11-23 23:28:40 --> Call to undefined method App\Controllers\Admin\Users::getVar()
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
