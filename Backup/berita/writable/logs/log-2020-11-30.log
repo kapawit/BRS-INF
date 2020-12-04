@@ -1,0 +1,459 @@
+CRITICAL - 2020-11-30 09:50:27 --> Invalid file: berita_index.php
+#0 C:\laragon\www\berita\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('berita_index.ph...')
+#1 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_index', Array, true)
+#2 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_index')
+#3 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 09:53:22 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:54:17 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:54:18 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:55:11 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:56:29 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:56:30 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:56:31 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:56:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:51 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:52 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:52 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:52 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:52 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:53 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:54 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:57:55 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:30 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:31 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:31 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:31 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:32 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:33 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:34 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:35 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:35 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:35 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:35 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 09:59:36 --> Undefined variable: halaman
+#0 C:\laragon\www\berita\app\Views\berita_view_all.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\berita\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\berita\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\berita\app\Controllers\Home.php(8): view('berita_view_all')
+#4 C:\laragon\www\berita\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\laragon\www\berita\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\berita\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\berita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

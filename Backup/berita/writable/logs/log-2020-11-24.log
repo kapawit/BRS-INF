@@ -1,0 +1,15 @@
+CRITICAL - 2020-11-24 00:15:14 --> Undefined variable: email
+#0 C:\laragon\www\belajar-ci\app\Views\login_index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('login_index', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Login.php(7): view('login_index')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Login->index()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 00:20:24 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}

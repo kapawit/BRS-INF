@@ -1,0 +1,64 @@
+CRITICAL - 2020-11-29 08:07:37 --> Table 'belajar-ci.user' doesn't exist
+#0 C:\laragon\www\tugas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\tugas\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\tugas\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\tugas\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\tugas\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\tugas\app\Controllers\Admin\Halaman.php(13): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Halaman->index()
+#7 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Halaman))
+#8 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-29 08:09:16 --> Undefined variable: user
+#0 C:\laragon\www\tugas\app\Views\berita_view_all.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\tugas\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('berita_view_all', Array, true)
+#3 C:\laragon\www\tugas\app\Controllers\Admin\Halaman.php(15): view('berita_view_all', Array)
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Halaman->index()
+#5 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Halaman))
+#6 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-29 08:10:30 --> Invalid file: users_create_user.php
+#0 C:\laragon\www\tugas\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users_create_us...')
+#1 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('users_create_us...', Array, true)
+#2 C:\laragon\www\tugas\app\Controllers\Admin\Users.php(19): view('users_create_us...')
+#3 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Users->create()
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-29 08:10:57 --> Invalid file: users_create_user.php
+#0 C:\laragon\www\tugas\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users_create_us...')
+#1 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('users_create_us...', Array, true)
+#2 C:\laragon\www\tugas\app\Controllers\Admin\Users.php(19): view('users_create_us...')
+#3 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Users->create()
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-29 08:20:55 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('create_berita', Array, true)
+#1 C:\laragon\www\tugas\app\Controllers\Admin\Halaman.php(19): view('create_berita')
+#2 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Halaman->create()
+#3 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Halaman))
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-29 08:22:15 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';'
+#0 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('create_berita', Array, true)
+#1 C:\laragon\www\tugas\app\Controllers\Admin\Halaman.php(19): view('create_berita')
+#2 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Halaman->create()
+#3 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Halaman))
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-29 08:22:15 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';'
+#0 C:\laragon\www\tugas\system\Common.php(1119): CodeIgniter\View\View->render('create_berita', Array, true)
+#1 C:\laragon\www\tugas\app\Controllers\Admin\Halaman.php(19): view('create_berita')
+#2 C:\laragon\www\tugas\system\CodeIgniter.php(918): App\Controllers\Admin\Halaman->create()
+#3 C:\laragon\www\tugas\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Halaman))
+#4 C:\laragon\www\tugas\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\tugas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
