@@ -9,7 +9,7 @@
         </li>
 
         <li>
-            <a href="<?= base_url(); ?>">Pengambilan BRS</a>
+            <a href="<?= base_url(); ?>">Ambil BRS</a>
         </li>
         <li>
             <a href="<?= base_url(); ?>">Kalkulator IPK</a>
