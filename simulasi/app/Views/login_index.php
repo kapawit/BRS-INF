@@ -36,6 +36,9 @@
                             </div>
                             <button type="submit" class=" btn btn-block login-btn" name="tombol" id=login>Login</button>
                         </form>
+                        <form method="POST" action="<?= base_url('admin/login/reg'); ?>">
+                            <button type="submit" class=" btn btn-block login-btn" name="tombol" id=login>Login</button>
+                        </form>
                     </div>
                 </div>
                 <div class="col-sm-6 px-0 d-none d-sm-block">
