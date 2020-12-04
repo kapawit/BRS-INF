@@ -27,6 +27,7 @@ class Login extends BaseController
         $data = $model->where('nim', $nim)->first();
         if ($data) {
             $pass = $data['password']; //data dari db
+            $nm = $data['nm_mhs'];
             $verify_pass = password_verify($password, $pass);
             if ($password==$pass) {
                 $sess_data = [
